@@ -1,0 +1,177 @@
+body {
+  margin: 0 auto;
+  color: #f6f6f6;
+}
+
+header {
+  height: 260px;
+  position: relative;
+  background: url(./imagenes/fondo.png)
+
+
+}
+.cuadro-texto {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px 226px;
+  height: 225px;
+  padding-bottom: 1px;
+  position: relative;
+  bottom: 150px;
+  -webkit-box-shadow: 10px 10px 31px -5px rgba(0,0,0,0.43);
+-moz-box-shadow: 10px 10px 31px -5px rgba(0,0,0,0.43);
+box-shadow: 10px 10px 31px -5px rgba(0,0,0,0.43);
+}
+h1 {
+  font-size: 40px;
+  margin-bottom: 3px;
+  margin-top: 10px;
+}
+h3 {
+  margin-top: 10px;
+}
+.texto-encima {
+  position: absolute;
+  top: 0px;
+  margin-left: 10px;
+  color: #f6f6f6;
+
+}
+
+.cv {
+  margin: 0px 226px;
+  height: 80px;
+  position: relative;
+  bottom: -30px;
+
+  -webkit-box-shadow: 10px 10px 31px -5px rgba(0,0,0,0.43);
+-moz-box-shadow: 10px 10px 31px -5px rgba(0,0,0,0.43);
+box-shadow: 10px 10px 31px -5px rgba(0,0,0,0.43);
+}
+.contacto{
+  font-size: 13px;
+  padding: 0px;
+  margin-bottom: 35px;
+
+
+}
+.viñeta1 {
+  list-style-image: url(/Users/rafaelparraga/Documents/RafaelParraga/imagenes/mail.png);
+
+
+ }
+ .viñeta2 {
+   list-style-image: url(/Users/rafaelparraga/Documents/RafaelParraga/imagenes/web.png);
+
+  }
+  .viñeta3 {
+    list-style-image: url(/Users/rafaelparraga/Documents/RafaelParraga/imagenes/telf.png);
+
+   }
+  .viñeta4 {
+     list-style-image: url(/Users/rafaelparraga/Documents/RafaelParraga/imagenes/location.png);
+
+    }
+.redes-sociales {
+  display: inline-flex;
+  list-style: none;
+  -webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+-moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+-webkit-transition: all 0.5s ease-out;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+
+}
+
+a {
+  margin: 8px;
+  margin-bottom: 10px;
+}
+.boton1 {
+  text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    padding: 15px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #f6f6f6;
+    background-color: #2E5466;
+    border-radius: 0px;
+    -webkit-box-shadow: 10px 10px 31px -5px rgba(0,0,0,0.48);
+  -moz-box-shadow: 10px 10px 31px -5px rgba(0,0,0,0.48);
+  box-shadow: 10px 10px 31px -5px rgba(0,0,0,0.48);
+  display: inline-flex;
+  justify-content: center;
+  margin-left: 300px;
+  margin-right: auto;
+  margin-top: 5px;
+
+
+
+}
+.boton2 {
+  text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    padding: 15px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #f6f6f6;
+    background-color: #2E5466;
+    border-radius: 0px;
+    -webkit-box-shadow: 10px 10px 31px -5px rgba(0,0,0,0.48);
+  -moz-box-shadow: 10px 10px 31px -5px rgba(0,0,0,0.48);
+  box-shadow: 10px 10px 31px -5px rgba(0,0,0,0.48);
+  display: inline-flex;
+  justify-content: center;
+  margin-left: 15px;
+  margin-right: auto;
+
+}
+
+.boton1 {
+-moz-box-shadow: 0px 0px 0px 0px #386A7E;
+-webkit-box-shadow: 0px 0px 0px 0px #386A7E;
+box-shadow: 0px 0px 0px 0px #386A7E;
+
+
+transition: all 0.10s ease-in-out;
+-webkit-transition: all 0.10s ease-in-out;
+
+
+}
+
+.boton1:active {
+
+-moz-box-shadow: 0px 1px 0px 0px rgb#386A7E;
+-webkit-box-shadow: 0px 1px 0px 0px #386A7E;
+box-shadow: 0px 1px 0px 0px #386A7E;
+}
+
+.boton1:hover{
+cursor: pointer;
+background-color: #386A7E;
+}
+
+.boton2 {
+
+-moz-box-shadow: 0px 0px 0px 0px #386A7E;
+-webkit-box-shadow: 0px 0px 0px 0px #386A7E;
+box-shadow: 0px 0px 0px 0px #386A7E;
+
+
+transition: all 0.10s ease-in-out;
+-webkit-transition: all 0.10s ease-in-out;
+
+
+}
+
+.boton2:active {
+
+-moz-box-shadow: 0px 1px 0px 0px rgb#386A7E;
+-webkit-box-shadow: 0px 1px 0px 0px #386A7E;
+box-shadow: 0px 1px 0px 0px #386A7E;
+}
+
+.boton2:hover{
+cursor: pointer;
+background-color: #386A7E;
+}
